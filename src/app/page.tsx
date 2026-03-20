@@ -82,7 +82,7 @@ export default function Home() {
       </section>
 
       {/* ABOUT */}
-      <section id="about" className="py-20 px-6 rv">
+      <section id="about" className="py-10 sm:py-16 lg:py-20 px-6 rv">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl font-bold mb-6" style={{color:'#92400E'}}>About Nozzle Flanges</h2>
@@ -96,7 +96,7 @@ export default function Home() {
       </section>
 
       {/* SPECIFICATIONS */}
-      <section id="specifications" className="py-20 px-6 rv" style={{background:'#92400E08'}}>
+      <section id="specifications" className="py-10 sm:py-16 lg:py-20 px-6 rv" style={{background:'#92400E08'}}>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-10 text-center" style={{color:'#92400E'}}>Product Specifications</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -120,7 +120,7 @@ export default function Home() {
       </section>
 
       {/* INDUSTRIES */}
-      <section id="industries" className="py-20 px-6 rv">
+      <section id="industries" className="py-10 sm:py-16 lg:py-20 px-6 rv">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-10 text-center" style={{color:'#92400E'}}>Industries Served</h2>
           <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-4">
@@ -133,14 +133,14 @@ export default function Home() {
         </div>
       </section>
 
-            <section id="datacenter" className="py-20 px-6 rv" style={{background:'linear-gradient(135deg, #92400E11, #F59E0B11)'}}>
+            <section id="datacenter" className="py-10 sm:py-16 lg:py-20 px-6 rv" style={{background:'linear-gradient(135deg, #92400E11, #F59E0B11)'}}>
               <div className="max-w-6xl mx-auto">
                 <h2 className="text-3xl font-bold mb-8" style={{color:'#92400E'}}>Data Center Infrastructure</h2>
                 <p className="text-lg text-gray-700 leading-relaxed opacity-85">We supply flanges for data center cooling systems, fire suppression piping, and critical infrastructure. Hyperscale facilities require precision-manufactured flanges that meet demanding specifications for reliability and performance.</p>
               </div>
             </section>
       {/* FAQ */}
-      <section id="faq" className="py-20 px-6 rv" style={{background:'#92400E06'}}>
+      <section id="faq" className="py-10 sm:py-16 lg:py-20 px-6 rv" style={{background:'#92400E06'}}>
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold mb-10 text-center" style={{color:'#92400E'}}>Frequently Asked Questions</h2>
           <details className="mb-4 bg-white rounded-lg shadow p-4 cursor-pointer group">
@@ -151,7 +151,7 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 px-6 text-white text-center rv" style={{background:'linear-gradient(135deg, #92400E, #F59E0B)'}}>
+      <section className="py-10 sm:py-16 lg:py-20 px-6 text-white text-center rv" style={{background:'linear-gradient(135deg, #92400E, #F59E0B)'}}>
         <div className="max-w-3xl mx-auto">
           <h2 className="text-4xl font-bold mb-6">Ready to Get Started?</h2>
           <p className="text-lg opacity-90 mb-8 max-w-xl mx-auto">Contact us for competitive pricing, technical specifications, and fast delivery on nozzle flanges.</p>
