@@ -31,7 +31,7 @@ export default function Home() {
       },{
       "@context":"https://schema.org",
       "@type":"FAQPage",
-      "mainEntity":[{"@type":"Question","name":"What is a nozzle flange?","acceptedAnswer":{"@type":"Answer","text":"A nozzle flange is a weld neck or long weld neck flange that provides the connection point on a pressure vessel or equipment shell. It is welded directly to the vessel shell or head."}}]
+      "mainEntity":[{"@type":"Question","name":"What is a nozzle flange?","acceptedAnswer":{"@type":"Answer","text":"A nozzle flange is a weld neck or long weld neck flange that provides the connection point on a pressure vessel or equipment shell. It is welded directly to the vessel shell or head."}},{"@type":"Question","name":"Why choose long weld necks?","acceptedAnswer":{"@type":"Answer","text":"When you need an option to weld to a tank or a vessel, and you don't want to use thinner pipes, LWNs are a good solution."}},{"@type":"Question","name":"What about heavy barrels?","acceptedAnswer":{"@type":"Answer","text":"Heavy barrels can provide better integral reinforcement than regular long weld necks, when you need a bit of a stronger flange for higher pressure."}}]
     }])}} />
 
       <style dangerouslySetInnerHTML={{__html: `
@@ -69,7 +69,7 @@ export default function Home() {
       </header>
 
       {/* HERO */}
-      <section className="relative min-h-[70vh] flex items-center justify-center text-white" style={{backgroundImage:'linear-gradient(135deg, #92400Edd, #F59E0Bbb), ', backgroundSize:'cover', backgroundPosition:'center'}}>
+      <section className="relative min-h-[70vh] flex items-center justify-center text-white" style={{backgroundImage:'linear-gradient(135deg, rgba(146,64,14,0.85), rgba(245,158,11,0.75)), url(/nozzle-flange-drawings.jpg)', backgroundSize:'cover', backgroundPosition:'center'}}>
         <div className="text-center px-6 max-w-4xl">
           <p className="text-sm font-bold tracking-[0.3em] mb-4 opacity-70">YOUR SOURCE FOR NOZZLE FLANGES</p>
           <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">Nozzle Flanges for Vessels & Equipment</h1>
@@ -90,7 +90,20 @@ export default function Home() {
             <p className="text-lg text-gray-700 leading-relaxed mt-4 opacity-85">Forged nozzle flanges for pressure vessel connections, heat exchangers, and process equipment. Long weld neck and standard configurations available.</p>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-xl">
-            <img src="https://images.unsplash.com/photo-1754211675787-8040a1104fac?w=600&h=400&fit=crop&auto=format&q=80" alt="Nozzle Flanges - Industrial pipe flanges" width="600" height="400" style={{width:"100%",height:"300px",borderRadius:"12px",objectFit:"cover"}} />
+            <img src="/nozzle-flange-drawings.jpg" alt="Nozzle flange types - Long Weld Neck, Heavy Barrel, Equal Barrel" width="729" height="244" style={{width:"100%",height:"auto",borderRadius:"12px"}} />
+          </div>
+        </div>
+      </section>
+
+      {/* PURPOSE OF LONG WELD NECKS */}
+      <section className="py-10 sm:py-16 lg:py-20 px-6 rv" style={{background:'linear-gradient(135deg, #92400E08, #F59E0B08)'}}>
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold mb-6" style={{color:'#92400E'}}>What&apos;s the Purpose of Long Weld Necks?</h2>
+          <div className="text-lg text-gray-700 leading-relaxed">
+            <p className="mb-4">They were built with pressure vessel and tank fabricators in mind. The idea behind them is simple: instead of welding a standard weld neck flange and a piece of pipe together separately, you get one solid piece that does both jobs. That single-piece construction, and the weld it eliminates, is really what sets this flange style apart.</p>
+            <p className="mb-4">Most long weld necks have a straight-through bore with a square-cut end rather than the beveled end you&apos;d see on a typical weld neck. The bore is usually matched to the nominal pipe size, but it can be adjusted to fit your needs. The overall length is also flexible and the nozzle body can be made to standard sizes or custom lengths depending on how much additional reinforcement your application calls for. You&apos;ll also notice a small radius where the neck meets the flange base; that&apos;s not just cosmetic, as it smooths out what would otherwise be an abrupt 90-degree transition and reinforces the integrity of the one-piece design.</p>
+            <p className="mb-4">Under ASME B16.5 subsection 2.8, these are officially referred to as &quot;straight hub welding flanges,&quot; though the spec doesn&apos;t go into a lot of detail on them. That&apos;s largely because long weld necks are so application-specific - the right one depends on the pressure, temperature, and media your vessel is handling, so there&apos;s no one-size-fits-all standard to write to.</p>
+            <p>Beyond standard long weld necks, Texas Flange also carries reinforced barrel flanges in nozzle form for situations where you need a heavier-duty outlet connection. Wall thickness can be specified to match your requirements. Reach out to us with your application details. We stock and source nozzle flanges in all major material grades, including carbon steel, stainless, and nickel alloys.</p>
           </div>
         </div>
       </section>
@@ -146,6 +159,14 @@ export default function Home() {
           <details className="mb-4 bg-white rounded-lg shadow p-4 cursor-pointer group">
             <summary className="font-semibold text-lg list-none flex justify-between items-center" style={{color:'#92400E'}}>What is a nozzle flange?<span className="text-gray-400 group-open:rotate-45 transition-transform text-2xl">+</span></summary>
             <p className="mt-3 text-gray-700 leading-relaxed">A nozzle flange is a weld neck or long weld neck flange that provides the connection point on a pressure vessel or equipment shell. It is welded directly to the vessel shell or head.</p>
+          </details>
+          <details className="mb-4 bg-white rounded-lg shadow p-4 cursor-pointer group">
+            <summary className="font-semibold text-lg list-none flex justify-between items-center" style={{color:'#92400E'}}>Why choose long weld necks?<span className="text-gray-400 group-open:rotate-45 transition-transform text-2xl">+</span></summary>
+            <p className="mt-3 text-gray-700 leading-relaxed">When you need an option to weld to a tank or a vessel, and you don&apos;t want to use thinner pipes, LWNs are a good solution.</p>
+          </details>
+          <details className="mb-4 bg-white rounded-lg shadow p-4 cursor-pointer group">
+            <summary className="font-semibold text-lg list-none flex justify-between items-center" style={{color:'#92400E'}}>What about heavy barrels?<span className="text-gray-400 group-open:rotate-45 transition-transform text-2xl">+</span></summary>
+            <p className="mt-3 text-gray-700 leading-relaxed">Heavy barrels can provide better integral reinforcement than regular long weld necks, when you need a bit of a stronger flange for higher pressure.</p>
           </details>
         </div>
       </section>
