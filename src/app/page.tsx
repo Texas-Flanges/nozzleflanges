@@ -37,7 +37,7 @@ export default function Home() {
       <style dangerouslySetInnerHTML={{__html: `
         /* Hide old layout header */
         body > header.border-gray-200, header.border-gray-200 { display: none !important; }
-        .rv { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
+        .rv { opacity: 1; transform: none; }
         .rv.vis { opacity: 1; transform: translateY(0); }
       `}} />
 
