@@ -212,7 +212,7 @@ export default function Home() {
           <div>
             <h4 className="font-semibold mb-3">Related</h4>
             <div className="flex flex-col gap-2 text-sm opacity-80">
-              <a href="https://www.texasflange.com" className="text-white no-underline">texasflange.com</a>
+              <a href="https://texasflange.com/products/flange-dims-weights/intermediate-connection-flanges/" className="text-white no-underline">texasflange.com</a>
             </div>
           </div>
         </div>
